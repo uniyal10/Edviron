@@ -1,4 +1,5 @@
 main {
+  flex: 3;
   background-color: white;
 }
 
@@ -12,7 +13,7 @@ main .global_search {
   border: 1px solid #e6e6e6;
   border-radius: 4px;
   align-items: center;
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
 }
 main .global_search input {
@@ -39,7 +40,7 @@ main .recent_data > div {
   left: 0px;
   top: 0px;
   border-radius: 4px;
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
 }
 main h5 {
@@ -99,7 +100,7 @@ main .users_right_header .users_filter {
 }
 
 .users_pagination {
-  margin: 10px;
+  margin: 5px;
   width: 100%;
   background: #f7f7f7;
   border-radius: 0px 0px 4px 4px;
@@ -117,6 +118,7 @@ main .users_right_header .users_filter {
 }
 
 .users_pagination ul button {
+  margin-left: 5px;
   background: none;
   border: none;
 }

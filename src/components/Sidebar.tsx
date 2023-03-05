@@ -10,29 +10,29 @@ const Sidebar: React.FC = () => {
           </div>
         </div>
         <div className="sidebar">
-          <a href="">
+          <a href="" className="active">
             <span className="material-symbols-sharp">grid_view</span>
-            <span>Dashboard</span>
+            <span className="item">Dashboard</span>
           </a>
           <a href="">
             <span className="material-symbols-sharp"> person </span>
-            <span>Users</span>
+            <span className="item">Users</span>
           </a>
           <a href="">
             <span className="material-symbols-sharp"> broken_image </span>
-            <span>Projects</span>
+            <span className="item">Projects</span>
           </a>
           <a href="">
             <span className="material-symbols-sharp"> description </span>
-            <span>Sales</span>
+            <span className="item">Sales</span>
           </a>
           <a id="settings" href="">
             <span className="material-symbols-sharp"> settings </span>
-            <span>Settings</span>
+            <span className="item">Settings</span>
           </a>
-          <a href="">
+          <a href="" id="logout">
             <span className="material-symbols-sharp"> logout </span>
-            <span>Logout</span>
+            <span className="item">Logout</span>
           </a>
         </div>
       </aside>

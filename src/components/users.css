@@ -13,6 +13,7 @@ main .users_list .user_name img {
   left: 0px;
   top: 0px;
   border-radius: 50%;
+  margin-right: 5px;
 }
 
 .rating {
@@ -34,4 +35,8 @@ main .users_list .user_name img {
   padding: 2px;
   border: none;
   border-radius: 2px;
+}
+
+.table_row {
+  margin: 2px;
 }

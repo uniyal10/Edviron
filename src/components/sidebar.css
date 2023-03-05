@@ -1,24 +1,60 @@
 aside {
-  padding: 30px;
+  background: #e5e5e5;
+  margin: 0;
 }
 
+.sidebar {
+  align-items: center;
+  margin-top: 100px;
+  padding: 10px;
+}
 .sidebar a {
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  color: #808080;
+  padding: 8px 24px 8px 16px;
+  gap: 12px;
+
+  width: 167px;
+  height: 40px;
+  border-radius: 4px;
+  color: #4c4c4c;
 }
 
-.sidebar a span {
-  font-size: 20px;
-  margin-left: 10px;
+.sidebar a .item {
+  width: 82px;
+  height: 24px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #4c4c4c;
 }
 
 aside .logo {
-  width: 100%;
-  margin: auto;
+  width: 134px;
+  height: 48px;
+  left: 51px;
+  top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 #settings {
   margin-top: 100px;
+}
+
+.active {
+  background: #b4cd93;
+}
+
+#logout span {
+  color: rgb(243, 133, 133);
+}
+
+a:hover {
+  text-decoration: none;
 }

@@ -5,7 +5,7 @@ const Users: React.FC = () => {
       <div className="users_list">
         <table className="table">
           <thead>
-            <tr>
+            <tr className="table_row">
               <th scope="col">User</th>
               <th scope="col">Status</th>
               <th scope="col">Rating</th>
@@ -14,7 +14,7 @@ const Users: React.FC = () => {
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr className="table_row">
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
@@ -39,7 +39,7 @@ const Users: React.FC = () => {
               <td>@mdo</td>
               <td>@mdo</td>
             </tr>
-            <tr>
+            <tr className="table_row">
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
@@ -65,7 +65,7 @@ const Users: React.FC = () => {
               <td>@fat</td>
               <td>@mdo</td>
             </tr>
-            <tr>
+            <tr className="table_row">
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
@@ -91,7 +91,7 @@ const Users: React.FC = () => {
               <td>@twitter</td>
               <td>@mdo</td>
             </tr>
-            <tr>
+            <tr className="table_row">
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
