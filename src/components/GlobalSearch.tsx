@@ -3,7 +3,7 @@ const GlobalSearch: React.FC = () => {
     <>
       <div className="global_search">
         <span className="material-symbols-sharp"> search </span>
-        <input type="text" />
+        <input type="text" placeholder="search users, payments" />
       </div>
     </>
   )

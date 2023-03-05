@@ -45,3 +45,55 @@ main .recent_data > div {
 main h5 {
   padding: 10px;
 }
+
+main .users_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+  gap: 100px;
+  width: 741px;
+  height: 56px;
+  left: 271px;
+  top: 404px;
+}
+
+main .users_left_header {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 56px;
+}
+
+main .users_right_header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 315px;
+  height: 32px;
+}
+main .users_right_header .users_input {
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
+main .users_right_header input {
+  width: 240px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  background: #fafafa;
+  outline: none;
+  padding: 10px;
+  border: none;
+}
+
+main .users_right_header .users_filter {
+  display: flex;
+}
