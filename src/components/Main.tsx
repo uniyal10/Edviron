@@ -1,4 +1,6 @@
 import Users from "./Users"
+import GlobalSearch from "./GlobalSearch"
+import "./main.css"
 const Main: React.FC = () => {
   return (
     <>
@@ -20,6 +22,7 @@ const Main: React.FC = () => {
             </div>
           </div>
         </div> */}
+        <GlobalSearch />
         <Users />
       </main>
     </>
