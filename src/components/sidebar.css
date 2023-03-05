@@ -1,0 +1,19 @@
+.sidebar a {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: #808080;
+}
+
+.sidebar a span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+aside .logo {
+  padding: 20px;
+}
+
+#settings {
+  margin-top: 100px;
+}
