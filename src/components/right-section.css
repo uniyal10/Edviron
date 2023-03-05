@@ -1,0 +1,42 @@
+.right_section {
+  padding: 20px;
+  background: white;
+}
+
+.right_section .profile_section {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.right_section .profile_section img {
+  width: 40px;
+  height: 40px;
+}
+.right_section .profile_section .name_role {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 20px;
+  line-height: 80%;
+}
+
+#name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4c4c4c;
+}
+
+#role {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b3b3b3;
+}
+
+#notification_icon {
+  padding: 5px;
+  background: #f2f2f2;
+  border-radius: 50px;
+}
