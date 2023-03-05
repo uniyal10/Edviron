@@ -18,7 +18,7 @@ const Users: React.FC = () => {
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
-                  <small>mark</small>
+                  <span>mark</span>
                 </div>
               </th>
               <td>
@@ -43,7 +43,7 @@ const Users: React.FC = () => {
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
-                  <small>mark</small>
+                  <span>mark</span>
                 </div>
               </th>
               <td>
@@ -69,7 +69,7 @@ const Users: React.FC = () => {
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
-                  <small>mark</small>
+                  <span>mark</span>
                 </div>
               </th>
               <td>
@@ -95,7 +95,7 @@ const Users: React.FC = () => {
               <th scope="row">
                 <div className="user_name">
                   <img src="./image 12.png" alt="" />
-                  <small>mark</small>
+                  <span>mark</span>
                 </div>
               </th>
               <td>

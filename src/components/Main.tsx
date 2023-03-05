@@ -1,5 +1,6 @@
 import Users from "./Users"
 import GlobalSearch from "./GlobalSearch"
+import RecentData from "./RecentData"
 import "./main.css"
 const Main: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const Main: React.FC = () => {
           </div>
         </div> */}
         <GlobalSearch />
+        <RecentData />
         <Users />
       </main>
     </>

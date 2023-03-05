@@ -22,3 +22,26 @@ main .global_search input {
   outline: none;
   background: #fafafa;
 }
+
+main .recent_data {
+  display: flex;
+}
+
+main .recent_data > div {
+  display: flex;
+  flex-direction: column;
+  background: url("./asserts/17-athletics.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  width: 227px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+}
+main h5 {
+  padding: 10px;
+}
