@@ -97,3 +97,26 @@ main .users_right_header input {
 main .users_right_header .users_filter {
   display: flex;
 }
+
+.users_pagination {
+  margin: 10px;
+  width: 100%;
+  background: #f7f7f7;
+  border-radius: 0px 0px 4px 4px;
+}
+.users_pagination ul {
+  display: flex;
+}
+.users_pagination li {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  background: #e6e6e6;
+  color: black;
+}
+
+.users_pagination ul button {
+  background: none;
+  border: none;
+}

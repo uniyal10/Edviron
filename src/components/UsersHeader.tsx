@@ -14,7 +14,7 @@ const UsersHeader: React.FC = () => {
 
           <div className="users_filter">
             <span className="material-symbols-sharp"> filter_alt </span>
-            <small>Filter</small>
+            <span>Filter</span>
           </div>
         </div>
       </div>

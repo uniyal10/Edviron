@@ -2,6 +2,7 @@ import Users from "./Users"
 import GlobalSearch from "./GlobalSearch"
 import RecentData from "./RecentData"
 import UsersHeader from "./UsersHeader"
+import Pagination from "./Pagination"
 import "./main.css"
 
 const Main: React.FC = () => {
@@ -12,6 +13,7 @@ const Main: React.FC = () => {
         <RecentData />
         <UsersHeader />
         <Users />
+        <Pagination />
       </main>
     </>
   )
